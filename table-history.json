@@ -1,0 +1,2184 @@
+{
+  "latestRelease": "v2.0.15",
+  "publishedAt": "2026-09-05T20:12:08Z",
+  "schemaVersion": 1,
+  "tables": {
+    "vpx-123": {
+      "fingerprint": "56a7bb13de4173d5de1dfeb7d06dd3e3d1bcf0826882fb8c11a87ef15e189c17",
+      "firstAvailableAt": "2025-02-24T06:06:15Z",
+      "firstAvailableRelease": "final",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-1812": {
+      "fingerprint": "c08955007057506d39cbaf03f0423aa5cd28aaaf7be24acc5e26f36dad5fc87a",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-2001": {
+      "fingerprint": "23550e5d4063484934fc23942b5f6fb68846531fbb81a89a98ececb4b8b06b68",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-24": {
+      "fingerprint": "b3780d4f8f08b3f8f989cc73eb03ab492fa8ebc3f9a651502a93618b287092a2",
+      "firstAvailableAt": "2025-02-24T06:06:15Z",
+      "firstAvailableRelease": "final",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-250cc": {
+      "fingerprint": "1576bd879e7d38662a3700da2310ef0cf0e8f76e7b8e4a8bcb14120bf4aed347",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-4aces": {
+      "fingerprint": "bbfbe668c509e9827542ddbd756c0af58c35ff61ee16201f1c4aacf5351748d8",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-aaronspelling": {
+      "fingerprint": "2276b5cac08de298b4f96822b7ec3183b0af336207fff7f45b6e83b1443396a4",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-abracadabra": {
+      "fingerprint": "e451e0cc9dfcad822fc9a66d32bc3e22f1224d293e768fe0ca16b7b58da3d49e",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-acastle": {
+      "fingerprint": "e495645b2e988d8e50d9c1bbd96e0b117e93a1f3c8d0a08c3ca082ac6e61dadc",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-acdclucipremium": {
+      "fingerprint": "8777214c80ae5921f113e2aa1897e142291968e83f3034200f8108a9e23d1447",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-acehigh": {
+      "fingerprint": "fc89b1548ca5cdabc536aae880b1ae5195561ac25f5200fbdfc57e0aa6accbbf",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-aerosmith": {
+      "fingerprint": "4dc79cb9ce99a1c5ef4d2a933fae39637ea9b30dd407e9e934b7a6a0fedce380",
+      "firstAvailableAt": "2025-03-17T12:04:53Z",
+      "firstAvailableRelease": "mytest",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-airborne": {
+      "fingerprint": "4ba8f9c1d179fe97573a285b5bbb253e2f17aced5cf49f90a7e6fb06cc0d76e3",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-alaska": {
+      "fingerprint": "bdff704f8e6f04ebadb5b3459115f60535533c02055938964eff981bf2731c32",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-ali": {
+      "fingerprint": "431625467a9ce1ba947f2c75c6db45ff3826ae42690b933abcbac75f5e6340f8",
+      "firstAvailableAt": "2025-03-17T12:04:53Z",
+      "firstAvailableRelease": "mytest",
+      "updatedAt": "2025-03-17T12:04:53Z",
+      "updatedRelease": "mytest"
+    },
+    "vpx-alice1948": {
+      "fingerprint": "0853c6b374ac6cd14f0a67fe77316b4cabb781d2561e82010d54b1cd610b72c3",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-alijp": {
+      "fingerprint": "f83f9ac616f6c3a19ff871935b911847f78af8b207a75b3476bb300c18fb51ae",
+      "firstAvailableAt": "2025-03-23T16:57:26Z",
+      "firstAvailableRelease": "testlib",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-alsgarageband": {
+      "fingerprint": "e3c003541d02b64caf2fc2fb02648c3555654d9b6f2dc7e924d7fc175610b51a",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-amazingspidermansse": {
+      "fingerprint": "273fac8451cf5545d6560f90e4011246d896cc853db62878293566bd37c99327",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-amazonhunt": {
+      "fingerprint": "a72c7c972164433e8b4249b68433f4627a0fa37f1768fe6975ed42ba610e54b4",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-andromeda": {
+      "fingerprint": "6939accc6295f63125f3e8b82449416dd7d0e3fc083d2f472786153fe6bcbe9a",
+      "firstAvailableAt": "2025-03-23T16:57:26Z",
+      "firstAvailableRelease": "testlib",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-aorab": {
+      "fingerprint": "d3d01ad7c2405fe4bfd8b2e04fa4e8522b8be66d1a43101c8de71a750ef00039",
+      "firstAvailableAt": "2025-03-17T12:04:53Z",
+      "firstAvailableRelease": "mytest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-apache": {
+      "fingerprint": "aad9f88b61e93a05f4be7c1edf8a9cb2027ec2eaaaa1097f27f81b6f77331b84",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-apollo13": {
+      "fingerprint": "3dec7302c5fdd3bba3cb4b257b712c932b07a768fd060e437db19b90090ee1fb",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-armyofdarkness": {
+      "fingerprint": "702ae931e752326d3b5ad0fd55ff1e2552fd48d69809cf0d917cfa9ae04a8bad",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-astannie": {
+      "fingerprint": "4c496da2fb190fc9589f270a2de469fdefccbdf78d8fa135e128041d2f74d743",
+      "firstAvailableAt": "2025-03-23T16:57:26Z",
+      "firstAvailableRelease": "testlib",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-asterix": {
+      "fingerprint": "9c33f55470919a406d465664aeff6784d2f39b84dea81360d1d06d5df288d1af",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-austinpowers": {
+      "fingerprint": "5cd0c7c60424fcfc70035ee877702dbdce126287961d19430157118ad77c48c9",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-avatar": {
+      "fingerprint": "197843d5f1c7812ab6d6404ad12937781fc43b111bc1039636f48b9082e1eb44",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-avengers": {
+      "fingerprint": "2a4215b35ee09ade8853af4243f8c5936239ba374b4b81abc719c2800a7a2ba8",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-avengersclassic": {
+      "fingerprint": "746f565b98520fb3a4b956e78c0a53df83982c207482b2f813485f779490ac3d",
+      "firstAvailableAt": "2025-03-17T12:04:53Z",
+      "firstAvailableRelease": "mytest",
+      "updatedAt": "2025-10-27T19:15:45Z",
+      "updatedRelease": "v2.0.0"
+    },
+    "vpx-babypacman": {
+      "fingerprint": "a88be06cbe4a851d3370eeaaa78eaeebd1d47a2aff544f5bb0e1e8472e924d6c",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-badcats": {
+      "fingerprint": "a4b20ad842423bc46ee073e84135bf2c9d371e14415e79ae02272ddabaa17e51",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-banzairun": {
+      "fingerprint": "615ff99b86bf9b28daf9052f50f7db6d4b8d8353ed3edfe95f8085abda950870",
+      "firstAvailableAt": "2025-03-23T16:57:26Z",
+      "firstAvailableRelease": "testlib",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-batman": {
+      "fingerprint": "134990cdd2abeb6be122251117af57816f44a944270efa5d9f4212928cc74a97",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-batman66flash": {
+      "fingerprint": "bb690dbc4c271b55d0290eaf122e51b4c70b8d3169be451ca61e223fbc75679a",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-batmanforever": {
+      "fingerprint": "b6f2da1b7a57080631c7b9d659f4550dc9aa5bae01e87e14acd0575a6933db9a",
+      "firstAvailableAt": "2025-03-23T16:57:26Z",
+      "firstAvailableRelease": "testlib",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-baywatch": {
+      "fingerprint": "90ef8a3edd04e7dcf390c595c23bde4cf31db114dd0361bdf6ab3324061ab1bb",
+      "firstAvailableAt": "2025-03-23T16:57:26Z",
+      "firstAvailableRelease": "testlib",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-big_trouble": {
+      "fingerprint": "d78f5aac1379f45c21b3d36a8018ef938c198f138aff3ac57c9d765705cd4885",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-bigbangbar": {
+      "fingerprint": "b40226c7ede59a44a23d29f1d94b1f02d61cb275e4bf4287bab9afcd8e515ff4",
+      "firstAvailableAt": "2025-03-23T16:57:26Z",
+      "firstAvailableRelease": "testlib",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-bigbuckhunter": {
+      "fingerprint": "dbbb702cdbe4b4e79ecd1d472c4a271146f84c5678df8d007238e61f6e111cd8",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-bighurt": {
+      "fingerprint": "60705822257cbc251c3a7d3ef763717599327b9dbae3bc634e145419bf061168",
+      "firstAvailableAt": "2026-04-29T01:28:27Z",
+      "firstAvailableRelease": "v2.0.4",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-bigshot": {
+      "fingerprint": "5c44852d88f1c787b46d5587fb9f3bc81e8375be6aeb826e2ef00d82505ae164",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-blackknight": {
+      "fingerprint": "a9b395b141eb54ee903c4da36a315eb0cc83edfe0e294b26149cd2400de644e7",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-blackknight2000": {
+      "fingerprint": "af6fea3b88e9699dcb68e3d7efc22265b10260fc5e31d51b9629efe41057a1f7",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-blackmagic4": {
+      "fingerprint": "385fc761efa06147c8bae9a43345c3ebf1bba5595fb24220348b9a2874e64e36",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-blackpyramid": {
+      "fingerprint": "21c91e427b7cd2e3678260d54013b7a34b641908ad5b1e86fc9d908ae4f8b790",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-blackrose": {
+      "fingerprint": "39fd5410827fac11cba39dca52aed47f6dab77514b5cbec623251d807fbee666",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-bobcuspe": {
+      "fingerprint": "54cd8eb0b0829ac7a4790df87d92b8a2f1432d9accad6c21ffa06c2be80f58a7",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-bop": {
+      "fingerprint": "c4b3b6d0d2ccd5294e6c1003c6fcc3ee64312b7c3b2e7fd8f7936259bf06f07d",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-bsdracula": {
+      "fingerprint": "593cd486643b3b9c255f02c746e0b9dbec5be0a10f844d00255f1d4886814aec",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-btilc": {
+      "fingerprint": "c1a8e9569f35055ac3ea34e996c48170ea06debd42a38152a5a641024e734eb9",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-bttf": {
+      "fingerprint": "4e6ee7ceefe022b9d7c5b8b3af2c1124d61b65c95585d8470214c1256633d743",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-bugs": {
+      "fingerprint": "d89cb0a2311ad4d8f1a18a6766e05d87e02eb44c34637601c712d96d216469c2",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-burner": {
+      "fingerprint": "3a2a16730d18ab9d1afa536b2a005b4d75d3bcb838e0a351bf14bc5cfe22ef51",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-cactuscanyon": {
+      "fingerprint": "e42f46eb972a38a8fd52486499ae8e393e26df356899aca550d3815b07cf6e47",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-carhop": {
+      "fingerprint": "cf1e1c4b39b546fa94791cf511c1ea9c0ec3fda1bcb2bf3f0af040863f10d43b",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-casino": {
+      "fingerprint": "bfa8bb2fd562040ff4870e706b28123f16ec459be038f671724663fa2dc82004",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-catburglars": {
+      "fingerprint": "210a1615db238eee3c2d34e0bb7a91f85ff011f2bcf0ce0bfcfc230116069e94",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-cenobite": {
+      "fingerprint": "8382083c348d74d23d1406618b3b02fc8c811aa733c75028645f2a67904a03ba",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-centaur": {
+      "fingerprint": "60ad2403c5201dbfa582c6ae859921c491f09446bb4864d18bbfe6b849d738d6",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-centigrade37": {
+      "fingerprint": "97465394db9c61dc9fb61ed3f9529dfea6d7835c4287aa6818333f346cbe431b",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-centralpark": {
+      "fingerprint": "026bfec77d0e41f5e3d7e339bdb982cf55006e1771aab5b874374e29a2b29148",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-cftbl": {
+      "fingerprint": "43933d58e5e0ea229642e40eb0ae431b02963063a971fdd7b59bd97412edb04d",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-champpub": {
+      "fingerprint": "2de2e4623399434503221cd1c78fc9f123701111cbbded159c01ed01a76b6119",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-cheechandchong": {
+      "fingerprint": "1a0a0a3f7b97945b75cdbe3329593914bbb8639eee0ee7191aa2946becb41d13",
+      "firstAvailableAt": "2025-03-23T16:57:26Z",
+      "firstAvailableRelease": "testlib",
+      "updatedAt": "2025-03-23T16:57:26Z",
+      "updatedRelease": "testlib"
+    },
+    "vpx-christine": {
+      "fingerprint": "9773d5df0a961e0af79d114b6a304668494f21e7653b216c10887bff084c47e2",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-chrono": {
+      "fingerprint": "6ec39fa5d02089c08328f1c2cf32877fdb2ec58b43639809c326de4526ec2dfa",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-cirqusvoltaire": {
+      "fingerprint": "74c2870bf65ac45b820b625e1e3f49850c1e37451dd1c928f0a35157cb7ea045",
+      "firstAvailableAt": "2026-04-29T01:28:27Z",
+      "firstAvailableRelease": "v2.0.4",
+      "updatedAt": "2026-07-20T19:11:17Z",
+      "updatedRelease": "v2.0.13"
+    },
+    "vpx-cityhunterpup": {
+      "fingerprint": "d6dd10efd4de83f8825f86c91f9762fe9df13788d635b4cc42a2c4272e78d6f2",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-cleopatra": {
+      "fingerprint": "9d108f7874017380bcf91715fd8e8984d2922a8a7dbfc515bc6ec03b8b004488",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-clockofetfog": {
+      "fingerprint": "28590d26234408a811bd410d74688b2bcce27b79176c5fdaf630ba2c0a017d01",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-congo": {
+      "fingerprint": "763e7701c0a683d326cfb706e73a5331de026831ccdab78b63ebac85a1794233",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-20T19:11:17Z",
+      "updatedRelease": "v2.0.13"
+    },
+    "vpx-cosmic": {
+      "fingerprint": "1ac1ce56331de1e92d8bb27c14410440e287a645550bd17edcdb2a078d9aab97",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-countdownjp": {
+      "fingerprint": "ff1d2cb27c42717a25314a24fdfb6b9d5ab9757eab3382b400bb9c156cdf9836",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-cowboy8ball": {
+      "fingerprint": "ad09bef915c91516d3ea2c49b60d08c30fb7cf2d3bf505c97a644c722bbf59ac",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-crystalball": {
+      "fingerprint": "1f690b36900429b1308995d8014bae0134253892f09649711c8fb7c766ed955b",
+      "firstAvailableAt": "2026-07-07T18:11:11Z",
+      "firstAvailableRelease": "v2.0.8",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-csiled": {
+      "fingerprint": "bf3571c498eb251e4c3d3adc3447e19619fd8db000412e5d7f67b11a096e3a5a",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-cyberrace": {
+      "fingerprint": "bd248507d7c7070af69f288daad422a8bfe6ebd5cb92431478ce095aa4f76128",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-darkchaos": {
+      "fingerprint": "5f0a1b16b13504862413d87f4e64c144dea3c7b3cd016e6151b2e71578aa1a67",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-darkknight": {
+      "fingerprint": "0c7aebc238950a1cb06a16c7126b691e7a049a6a1f3dc34e0b10058affb70df4",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-dbsse": {
+      "fingerprint": "d257e50386cb48507cdb270a80ce5df807eac9d00ff4da08b18350584b9ef3c5",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-dbzbudokai": {
+      "fingerprint": "3d7baeba90d35f81df859001dbdd1693097a4236e28c3e70ed78fe254d9e7631",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-dcrystalpup": {
+      "fingerprint": "e10d20fa796827e6953e8869e857e4db9e7e27cc8fa1aa5b8fe806179f4a41e6",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-deadpool": {
+      "fingerprint": "7cfc581300c8112a095709ddd4517c8e5c2ada58435917b1411bdb359701ae52",
+      "firstAvailableAt": "2025-02-24T06:06:15Z",
+      "firstAvailableRelease": "final",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-demoman": {
+      "fingerprint": "cea92da54e11ea3c5ce45c9a27b7191fc3b3431abb0ff422753f0a7a9247eaf8",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-07-20T19:11:17Z",
+      "updatedRelease": "v2.0.13"
+    },
+    "vpx-devilriders": {
+      "fingerprint": "853b5eceba44236958834f7daf4e77da8d151ceb1ecde45ae1bd969f9513f4ad",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-dexter": {
+      "fingerprint": "352845870a659ec8d08fa3d9c83a8cb9fd32ca16fa34b3036be8cf83a775cd4f",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-diablo2": {
+      "fingerprint": "8410ee4b839c70e029747d4947d5847897c8dd71dfd275d130b9541f38a780d3",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-diner": {
+      "fingerprint": "46730d8af937ef364911ad00714b988a94cda81c6cc3d02e4d0741a126bc54ca",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-dirtyharry": {
+      "fingerprint": "b1add11cb847fa7db6c7361eed7de709c4afac3690fbe7d740f649275e5cbf80",
+      "firstAvailableAt": "2025-03-17T12:04:53Z",
+      "firstAvailableRelease": "mytest",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-doctorwho": {
+      "fingerprint": "1e58107f6f6498a44ede87837d7967f251081a3887aa70f09a2c576bf4a5bc17",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-dolly": {
+      "fingerprint": "5106184708e6b4c6ac05f918e8ea8dd56db96efd1c5cee20f13baf13570f3af7",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-dollypup": {
+      "fingerprint": "60ec9f5884f9a086d010d2dc323a29ddef9977238358c82f125a1e0454a18bcf",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-doometernal": {
+      "fingerprint": "4284abe0ac1de1a23d9502bf90b0c1ded5792695b852b35511febd9dc0721680",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-dracblood": {
+      "fingerprint": "d4607bcb24c24486f7c63ab42009fd1f4767873d730f8723a53f2e0e708019d2",
+      "firstAvailableAt": "2026-04-29T01:28:27Z",
+      "firstAvailableRelease": "v2.0.4",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-dragong": {
+      "fingerprint": "17d1c9f132245722f9a7338a84f548c259847408746ca0f0650a28a5fde4423a",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-dragoni": {
+      "fingerprint": "1c76d792f318d8613fceaff595c4370b9ba145e069b0d144b5b60091b7c34ccc",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-drakor": {
+      "fingerprint": "13febb681bb0290b279a2f6d9503b8b32468aa04459fc19727d74f7e7ca1665a",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-dune": {
+      "fingerprint": "7fa48f93f5569941f92b7b6082f27fe4666a801ad3184a175f3d91f38a4f340e",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-dungeonsndragons": {
+      "fingerprint": "0e35f0db8a18c1161bfb0898033f0af7e8f931386845e43dc752ccced93a281c",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-earthshaker": {
+      "fingerprint": "43cf1c8fa4a35aad5826375a9f05cd0bec6cad792eb96c04ae6b9320a568d718",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-eldorado84": {
+      "fingerprint": "43e98f56c5c5f2bc65091bf5c36fcb1573ce37ac552156f18a93451db3ca8d47",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-f14tomcat": {
+      "fingerprint": "00886bb455dd9c77dc463a036ecf246238e0a194c206f64c63f6e99d003fe46b",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-familyguy": {
+      "fingerprint": "3bfa3acb50eb6ae80e5b8860bca79b3f36148feb58e9fbb1ad77ef51266fae39",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-fathom": {
+      "fingerprint": "9a544d92f000797d91df00dc1a6abb10162c6f11cefc4eb0218109cda5e6ce2c",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-fbclassic": {
+      "fingerprint": "218200717af19b2cf9583a54f03fce1f611c737de3171ad6b74114b23177034f",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-fifthelement": {
+      "fingerprint": "42e9d5a52847d91ed70e0527017ffbd087d93ef6a86db65a8b678af73b0fa294",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-fire": {
+      "fingerprint": "61a40cd7222851291d8637f80386cb40457fdeb42306497ab5a09c22f7e643c8",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-fireball": {
+      "fingerprint": "3c2e3067275078468afaa3d1e10cdc1546a97b1612e0097c56500cd9cd3ab3af",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-fireballii": {
+      "fingerprint": "e4d96ac3af970f6d7e77e9c1a944fc73be061d57233a85a681e4ea297f4622ab",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-firepower": {
+      "fingerprint": "fb7643ae4824af5fe543d4b388a58472c641918244c2366c57aac62a802b02b0",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-firepower2": {
+      "fingerprint": "449f6b1b3e6b083dec785f816af9e5b382e0161790c4145aacdc2de82514aa01",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-fishtales": {
+      "fingerprint": "9f2d30ca6cdc190bb089ac0cdc1156ba0a5e6d3cb20ab37383949267f8d61c62",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-flash": {
+      "fingerprint": "c00e2018cb12db18244d7fd3d6b6b8fa2bdb50b70fbe25c847eb6e275ec11a8d",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-fleet": {
+      "fingerprint": "4b4637a19af59d2a8d6cdb571df3427d2d7d5c72ddc506e16d09fa71827738f6",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-07T18:11:11Z",
+      "updatedRelease": "v2.0.8"
+    },
+    "vpx-flight2000": {
+      "fingerprint": "c3248f6ef1d52426db3a33caf2fbb94b77cfa5830b959493f47dbea848137b90",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-flintstones": {
+      "fingerprint": "7625e858edbb0e34d7e0f5472954c7adacc2443a4f08d085564d42fb33cfd30b",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-fortnite": {
+      "fingerprint": "2fe7ad2a11997e63656821a4fcacb4a65530fc9d03c0e50f62bf31573be8de75",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-fourmillionbc": {
+      "fingerprint": "6ee79d1bb2dd6bf4a91cb72ecc9b50adf69f20a5c67e05f49d5091b7ea4fe045",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-freddy": {
+      "fingerprint": "4fb3acb2ebb9c582abf69f60911573aca345d0f5a283e77a2cb36933f56c6ccb",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-freddysnm": {
+      "fingerprint": "0a5b0281ed130bd56195229e5fadab9f2b893e19eeb82e06093f5b9f5fe46cc0",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-fridaythe13th": {
+      "fingerprint": "df68fe4eb19315e6dd331a95ef7e4906ce346a5ccbdcfc0f3f780334091aa9a6",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2025-10-27T19:15:45Z",
+      "updatedRelease": "v2.0.0"
+    },
+    "vpx-funhouse": {
+      "fingerprint": "0ae838b05758ccdec58927074f4abf1dab8f40bcc211492f088d07f8bb561832",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-futurama": {
+      "fingerprint": "0940636242ebdc1af2dddefeeb8e91f7a79758326959c1c173aef4ffb7ee712a",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-gargamelpark": {
+      "fingerprint": "f589d45b0573db83eeed42c32886ae010546ec0583f448cdd13bca3160651be0",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-genie": {
+      "fingerprint": "981840cf92c7b6dcb44430124d280e5c795f92dbf34809e232a65a122286fd04",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-getaway": {
+      "fingerprint": "887dee73fae8d63be9b1348b94f70a6171dc14a1188be8a94f5e9ecaea85d578",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-gilligansisland": {
+      "fingerprint": "9d4fbf0f62fb2e5274c772e0a16fe2d974362aa9d50fa6fcf91b81bf669e90b4",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-gladiators": {
+      "fingerprint": "7790c0b52dc08e26ad0bbaff431eff54ab1726dd6168464a5a7d0b28b8384cdc",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-gnr": {
+      "fingerprint": "ea40187037a0a0023eb7a28d963d0340f9445d1481dd4c3bc25a14498b5a69f2",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-gnrle": {
+      "fingerprint": "60ff26b61560c15b41ea07123da095eab783ef22388dd5f7734579dd4e7de07d",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-godzilla": {
+      "fingerprint": "308b9b03de63fc1356e5173ede2eaabd9ad7a3426450df45c1f479e926a140c5",
+      "firstAvailableAt": "2025-03-23T16:57:26Z",
+      "firstAvailableRelease": "testlib",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-godzilla70th": {
+      "fingerprint": "e9d18f008a0336418fde9abf914ea05e05bb8b9539cb1c7719ab66da9aa4ca17",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-gogtrilogy": {
+      "fingerprint": "2f13a8ec2d9e8f9830c0ff6e19d66b4484c30aab1546604b621f6d5b51eae5b2",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-goinnuts": {
+      "fingerprint": "ab63875af294d5fb6fbbb2422b2d4cfddce5eec0e3171221b835e5ab4509fd40",
+      "firstAvailableAt": "2026-04-29T01:28:27Z",
+      "firstAvailableRelease": "v2.0.4",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-goldencue": {
+      "fingerprint": "e1152c4d6c079d8ad2008c219f4d8add4accde0668fb637dd01585e19c787fdc",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-goldeneye": {
+      "fingerprint": "75afab28f5993f3036d37d4783f662870035565cb09e729b499c7b3c5a8b4be1",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-goldwings": {
+      "fingerprint": "573d2cd00de9b18b24e597df95315572e10d84d719186a49d087ee1767caaa45",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-gorgar": {
+      "fingerprint": "d440c427183935a8745b01ad89ffaf4478c57d52f50432b645a8a7f9fbd04377",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-got": {
+      "fingerprint": "3fb827cb26119f510c7840ce27898495cdf795e2c826bf467920fd6bd7a23d27",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-gotg": {
+      "fingerprint": "3be0202ea264ec82017242b2272da61b55103fc3007d1b3a539a2e3a7a809084",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-grandslam1972": {
+      "fingerprint": "06111322b136e43df2013f90eba9b4c75ff925cfc8024e48db0c3007cfdfdc42",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-granny": {
+      "fingerprint": "b45e3e11584fd98320abfb01f10139ea5c8b7e7084793761363d313c8df68655",
+      "firstAvailableAt": "2026-07-21T18:45:17Z",
+      "firstAvailableRelease": "v2.0.14",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-gunship": {
+      "fingerprint": "cd4cb4d5d1c7d95b8dbaadf42bd0b438d3814c5277b50ef6fde469bc374b80e4",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-hardbody": {
+      "fingerprint": "5e14207b7130c8ceed2ad75f492ba8dfbd49d9fc83619119fe8fed38930e6ce5",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-harleyd": {
+      "fingerprint": "f4c1e49ae2c79fe788e9335cd0e6da26bc7a32b82eed736d19c0ed6bca01675a",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-hauntedhouse": {
+      "fingerprint": "05f6cfb67c8d070985f5f77549b8d710ce22e9467ac2100bb903fc6ff4b17d76",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-hellboy": {
+      "fingerprint": "8530bc6f3bd7ac46839aad11588fe2a3b5b342787f00e2c54add544645d164a6",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-hellraiser": {
+      "fingerprint": "3e5292372111850ae64e8e57b25c2398a1485c7d3c1399674930c756b37b567c",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-highspeed": {
+      "fingerprint": "a9fd92b177b8f39c7deb2648cc6c76c2c645ec4a0485295707a4d903a0c601ee",
+      "firstAvailableAt": "2026-04-29T01:28:27Z",
+      "firstAvailableRelease": "v2.0.4",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-hmm": {
+      "fingerprint": "7e3db08f9cd48f78b9e7343a26a257c1f696cd7dcb6c07690653a0b88cbefb6c",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-hollywoodheat": {
+      "fingerprint": "b4e0074ef44408103270667bd6b7ff23db26d559278b73dd44c6fa1c7bece8b1",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-hook": {
+      "fingerprint": "42df621b8ea65ffca18ba34139a926f58bc7243fb2dbd193e5dfec81a7d83306",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-humptydumpty": {
+      "fingerprint": "2dd7fc6b21f706d48056eccc637b7baa3631d0c1baf5b392eaaa0a05dd42653f",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-icb": {
+      "fingerprint": "f4e7b1fcb992678067c9c5bebc87d5fd0adf496458fd92f92ef41f1aa7a07948",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-id4": {
+      "fingerprint": "e54b12ea13bce48c22c65a58a00b0ed5e0359d064150d10d5aa1250d73943d47",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-incrediblehulk": {
+      "fingerprint": "e7dec630af4539b56981cbe078788ca57c5ee1e4cd51c3e764e03bed11456f9d",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-indianajonestpa": {
+      "fingerprint": "6e38a3612bfcf76e78602f71b1ab7e43969d62a8a4ddbf24e21e138c35400281",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-indylastmovie": {
+      "fingerprint": "382c460b8c61d010677c089e5d9ae9f54b58e4c39cb417d46367ce7bfb5ab3b1",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-ironmaidenlotb": {
+      "fingerprint": "4ea9b6cb9a98ef3e23f0a2bcc09ad7f6b23202c0c8388d44cd31802f7be9a55d",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-itpinballmadnesspup": {
+      "fingerprint": "1cccc308d390adef340fe32bb0e54fb382ae6027f480143bde286a46def6b2dd",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-jackbot": {
+      "fingerprint": "697b0add2827e2dae3058c56390381e3cf799ff439c9432e9c3cd11a0c488059",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-jacksopen": {
+      "fingerprint": "49e92f0f72f7e6e3acf6c14b54491a276ff3c18367fbee3ad98c3ce204efa602",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-jackstoopen": {
+      "fingerprint": "1b23d0b02ce53ac77625b7ea61c17a138e06d134206087f29813342fc46e8615",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-jamesbond007": {
+      "fingerprint": "67547a242bd0f78e3b29ef350386d1e686176235c96928c9be6717cc87dd58f7",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-jaws50th": {
+      "fingerprint": "4019b9e854eea33e20bebc9386d5d8ad76b8c6458ebdc9132f350a0840ffc3b8",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-20T19:11:17Z",
+      "updatedRelease": "v2.0.13"
+    },
+    "vpx-johnnymnemonic": {
+      "fingerprint": "6226c4f67aeb5ca49b9b2f399824037fede048049eb82dc84d8e42b1fbcabc6a",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-johnwick": {
+      "fingerprint": "d8c61444777daa867e1251adf4c9aa2f2ffb1d638cc971cd4c4f533943809e0b",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-jpattackfrommars": {
+      "fingerprint": "04af3c0b8ea278baae867fe4d2b334a8ee9f0c76b0e4ecc7071e1bb1d7bec20d",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-jpattackfrommarsle": {
+      "fingerprint": "87fb87ae85e09bb8342c85da85f150ee0d227520e616acaf73408fa9ea8846c9",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-jpavengersclassic": {
+      "fingerprint": "7fa07e81f18276f76b1596d07547e9af91ad2b606d64ae4a35d8d23fa49a7d56",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-jpfridaythe13th": {
+      "fingerprint": "bda5347285e539ae6e1ad436fdac42046acc58afb75cf0c462ae0ba6fd426349",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-jplordoftherings": {
+      "fingerprint": "2b491188fd8b291fdf75bfa2f84ea87490c3ced1046f703c7d912f5251709b4a",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-jpseawitch": {
+      "fingerprint": "9c6be0bb2b5daaea933e351c86a17ab06ce5fcf8bd4679b38d1c3c9b48e55703",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-jpslimer": {
+      "fingerprint": "253efd764ceb3d1866739f05fec138299233e327248c1f9d9a7b9ab3a01c887c",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-jpsnascar": {
+      "fingerprint": "00bfecabeb87efddbf49ab43cbb06b42fcd93463f66bb1bf11e2e887449750c2",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-jpspaceinvaders": {
+      "fingerprint": "73b33c65428c8c6c382ee5af7f2bb3ec1b1fb664c22f0089fa0faa026761d0c9",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2025-10-27T19:15:45Z",
+      "updatedRelease": "v2.0.0"
+    },
+    "vpx-jpt2": {
+      "fingerprint": "807dddf5e4ffeb2cf316bf369aa5e770d6f3250c039a161d947e071d3fb324ce",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-jptaf": {
+      "fingerprint": "ee196f76d928667407333b0678d53d43ee659d68c9d45eb9af03839c2dea8eb0",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-judgedredd": {
+      "fingerprint": "7ef86325fd34303e4c32e6ab98354f50aa6b6dc1716145b8147904221e07f0b7",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-junglelord": {
+      "fingerprint": "64a3a12cb55de2471e0d26db24afd2330167fd3a05be4d9b9e8385a1b2462c50",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-jurassicpark": {
+      "fingerprint": "06581d65d6ebe57f1acea7a34221c8c8516384c4671aadf80ae8b2aaff474260",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-jurassicparkle": {
+      "fingerprint": "7774bc6d15029c2a872fac5695d102475369df83cd43dcaabd91b89cc46f2152",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-killershof": {
+      "fingerprint": "07e786669e83c81323f42df9ae586a9b97b0068fe9cd81099aad56a22f44c6f6",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-kingkong": {
+      "fingerprint": "7581f440a0ec900642e73fc1a6386d7f5653cdbd62126a4f413708db99b172ce",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-kissbally": {
+      "fingerprint": "1d3a45af7df6603b5a50f10e7338d233b07a2fdfeaa09458e657648c430fdada",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-knightrider": {
+      "fingerprint": "c7608858ef009e3e6268c0f623cb3c9c86ac8a428755b8cb416133b5bd8b5595",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-koth": {
+      "fingerprint": "52877e80e0d13f9108a064a0bb9cee8f538ee2194ac32b6497567d4b613d7e6b",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-lastactionhero": {
+      "fingerprint": "c6e04f0964c8208a0dd4b0cc1aee0f5ba28f738a8fee95a4a33b15103b7dd4fc",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-lethalweapon3": {
+      "fingerprint": "6f62a9f930917c21d0890d2d8e75cb77f84b43a2a748730e030f082de8d4af21",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-lordoftherings": {
+      "fingerprint": "c85b63b42699e9939ca5eeee9bc6fd2324092ea1b0a1980a6b88bfed1cd48b63",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-07-07T18:11:11Z",
+      "updatedRelease": "v2.0.8"
+    },
+    "vpx-lordoftheringsvalinor": {
+      "fingerprint": "20d17f7433b96fd13cfe2b2963559114975b8a13b452344f342183551577bd7d",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-lostinspace": {
+      "fingerprint": "8f672ed4680f2cd3d541badab0ee850ecf2e986e4d5d1e5b3d2c92a0ad9eca1d",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-machtwo": {
+      "fingerprint": "aaeea5465bd175ec131fa744d803c3655a7cb8686ce072b9a728a674f8876ccf",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-madmax": {
+      "fingerprint": "c035550e245e3afe330f07eea9a4bde0aa2cfd46e0632081fbaed03183552116",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-maryshelleyfrank": {
+      "fingerprint": "3564ecfea795775c4b5cdcfd695f03ed83f0ded73814f9309e0552b352b9d0e5",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-mastersoftheuniverse": {
+      "fingerprint": "d47f5a3df067d2741f22668744b7c829c752909747e734e940b78c47fdd52b4a",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2025-03-24T15:30:39Z",
+      "updatedRelease": "test-titles"
+    },
+    "vpx-matahari": {
+      "fingerprint": "ecb5ebb2bcd18805cb69f48d1d16b63a9fcc1e4eccc3a42add92cca984251585",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-maverick": {
+      "fingerprint": "0dc7ba2d861c5a9980835d0109f4d45d382a5716ef15185e0100d5e175a8d32f",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-megadeth": {
+      "fingerprint": "41d07ad104bf7bcd71e8f09140f52a2ada907babb3d0a4635cfad417826e99ee",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-07-20T19:11:17Z",
+      "updatedRelease": "v2.0.13"
+    },
+    "vpx-metallicapremium": {
+      "fingerprint": "00d92cce251586d809c46a80cc18f7f73ff1b47c7c6a43fc26eec6bbe237e923",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-meteort": {
+      "fingerprint": "a77b7f6f1234c7c057ef3b2640627590ef318cccee8b4fd3f51f9fc7cd8b8128",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-missionimp": {
+      "fingerprint": "125f1d6fa6cc7dc7674ceaa54d5ad9313ff58115dae14230b0fc8bc47a4eca7f",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-mm": {
+      "fingerprint": "adc2d1ac405ed076256c3b564358e5fb782c1f33ef9a047c050a584de5d9146f",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-monsterbashreskin": {
+      "fingerprint": "5a1d38bddfc6f3ac52231396fe041f936ac177fbb71e3ccf464d62dc19a5de71",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-mousin": {
+      "fingerprint": "9fed15c8bace4ff935de4f1d97cfa0ad639130456f041a679131bff446f64b6b",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-munsters": {
+      "fingerprint": "af476b9c0d0586a45e41bfc27ca1725adc859f3ed096258b56c8b76a8a3f31d1",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-nags": {
+      "fingerprint": "f9a948133f8d46278e2cf7befbb83556e671e0bc082d874fbe42428fc5041914",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-nascar": {
+      "fingerprint": "94d9529b5511a498dee0d2b7801277d8fcbd4fc6290309b24e7169e45ce0d8cc",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-nba": {
+      "fingerprint": "f892a00d2fa2deb972a63c2a257da36061a0420efd998be6f8f46745a5f2d610",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-nbafastbreak": {
+      "fingerprint": "ec67adf9033ed055eea4e13ce1342a626c347427daf19db7cbab6aae0e6fc8a1",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-nbc": {
+      "fingerprint": "b7fc339c81a0cf3c3d96a8c20b71ff06370e5910ce8f57ff7d8a434328d5d468",
+      "firstAvailableAt": "2025-03-17T12:04:53Z",
+      "firstAvailableRelease": "mytest",
+      "updatedAt": "2025-03-17T12:04:53Z",
+      "updatedRelease": "mytest"
+    },
+    "vpx-nofear": {
+      "fingerprint": "c6fb766cf4fe32426c9563d927c23e8f7f37fb05f6d347ee1c13f0f421e1efa1",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-ogaucho": {
+      "fingerprint": "24ecfc16f1f7fb8d8a8d1980bb4fb43a693d42756c2be215c90ca4f8c7fa1151",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-partymonsters": {
+      "fingerprint": "48d6de2f90c9513c663a4f9186193275f18e50f03ab25f87da849c10849c9924",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-pennantfever": {
+      "fingerprint": "980d443da0a5f14dbe4c5fdb2be11a5350cd440ea3ea5bede411d6bccc69b993",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-pharoahdr": {
+      "fingerprint": "b1b2a72604dde168a63a4fc6c69725bb8c9a683de406e30512a3cba83c620ede",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-pinbot": {
+      "fingerprint": "f766085670b15e5ad5627730f5e8875a69e7d39e6258b33874de12e81bf4a183",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-pinkfloyd": {
+      "fingerprint": "98e1cf3c9b36c5dc3fa45ba902a208517d6bf6c425e80bbf3875ededa14c696c",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-pistolpoker": {
+      "fingerprint": "ae836e173d5580de44766b4fc1750fe584e8ee778e3bc78f8b13e11cf6b490d2",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-playboy1978": {
+      "fingerprint": "34d7e923c6c4d9ac5057f73bde6fb233633f766d9cc6008572292af8c9962077",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-07-20T19:11:17Z",
+      "updatedRelease": "v2.0.13"
+    },
+    "vpx-playboy1978de": {
+      "fingerprint": "429c12440b33547446d0dddc3ccd52b3e6f996736fb3b0c08ee93441e8527c8c",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-07-18T20:03:02Z",
+      "updatedRelease": "v2.0.12"
+    },
+    "vpx-playboy1978denude": {
+      "fingerprint": "4614358d65c26260ae5553624b42d082e9c60479e40bdc1e49a7e69fbaa282b7",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-07-18T20:03:02Z",
+      "updatedRelease": "v2.0.12"
+    },
+    "vpx-playboy2002": {
+      "fingerprint": "ed6373620e4533527cde04ca94d4356608de4a683b7de2d0c5ab9b3e08a7f15f",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-playboy35": {
+      "fingerprint": "4af31276314700193cce9382950a0971bbc16a4c50dbf386b2ad43bfc1374734",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-playboy35m": {
+      "fingerprint": "7adffc6fec558672f443891bf383e012821d3f5a9dc9a52f02d1f678b405ca23",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-policeforce": {
+      "fingerprint": "590aa4bd1de7ec6606a0995ef3a1087f68a9d8a6967def042cb129669edf100b",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-poolsharks": {
+      "fingerprint": "712134e3be3fc57f64ff20d8dd2e3f22ebc48b86533e26985712a0d07d7a3b81",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-potc": {
+      "fingerprint": "697964a95858d3373cce362e462167308e2de9fc370230283c190a3f66670fd0",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-powerrangers": {
+      "fingerprint": "02b5d510da6bcb92e8ef49b8fb5bedc15e6745ee6fd545e314d745f3917957dd",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-punchout": {
+      "fingerprint": "ca13d9dbdb7a79118e8f1fefb205aabeaa1723d3938625826404972f375b476f",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-quicksilver": {
+      "fingerprint": "d1c71486b68af800ab542d0b968692836892e70955e2f5e264b1729d7974aa50",
+      "firstAvailableAt": "2025-03-29T21:09:27Z",
+      "firstAvailableRelease": "testing123",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-r911": {
+      "fingerprint": "4494b8ee1bbf73235d4016edae50a4f5c4d5df0c2937613b175e21fb393d5ddf",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-ratfink": {
+      "fingerprint": "7b37882a1743acee693ea8891d0eaf8b2c6125d6b3c4887d7795c0cda5d2da35",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-rctycn": {
+      "fingerprint": "2f234d9cb8f0e1cfb9c964c4bc0d1676c0d01194f618081ec8089f6eef2faeb7",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-ripleys": {
+      "fingerprint": "21bc1e6626fac334d46acca867cd08814b64455899c2a2ce7d4d0c12ce154279",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-21T18:45:17Z",
+      "updatedRelease": "v2.0.14"
+    },
+    "vpx-roadrunner": {
+      "fingerprint": "2dfd297ba6f35f1d4507da0f50439b33f84920d186539f6483f32f5c37bf1f68",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-rollergames": {
+      "fingerprint": "4973548046cadbe3329a425b7ecf090ba0871171aa7f6af360bcb81f07e09cf3",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-royalrumble": {
+      "fingerprint": "93c49ce517bb8882da018a53728232ad9889ada9764a3a31e4cdb19b1b503eb9",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-scaredstiff": {
+      "fingerprint": "90ab046869679f853cc6dd1ac35c5d16d894876682db1bd4db51caa78a2ada9d",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-seawitch": {
+      "fingerprint": "82f255378cd5adcdd40f4f1ab91cc32a194caca07c7fe194431c1938f2e8923a",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-secretservice": {
+      "fingerprint": "4dc6205efc0a279f3b3d7f8e57d66c653cdb309391b1453c8e83e0a97a953710",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-sexygirlnude": {
+      "fingerprint": "5c8c0c6e3b0443abd624369d174da473bd16d93bb1375cbdc90bc81c702824d3",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-20T19:11:17Z",
+      "updatedRelease": "v2.0.13"
+    },
+    "vpx-sfii": {
+      "fingerprint": "44738224644b7e53ad758cbfa211351ddb20c235734c42b90e227d16f013603a",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-shark": {
+      "fingerprint": "1387f8e20bd6be5636df582282a03d68a2336f2f9788b9ebe5bdee5d554e0d4d",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-sharkeys": {
+      "fingerprint": "52354981389e31fb39067b6e6e0bf2bbfbe4a6c7303e20ceb6dd971e798f01b2",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-simpsonspprty": {
+      "fingerprint": "eaec7498f9023a7aed6224123eca2e9db0b2fd0fdf773122a5826321dc0f3fe7",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-skyscraper": {
+      "fingerprint": "93446446da85f60b3da77bf69974f68a6b11851f22b1afe8ea547fdbaa22310c",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-slimerjp": {
+      "fingerprint": "2d812e4724481e8aa42b17655567180400fe83e1c719c6f1b2bdd12479af56d4",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2025-10-27T20:25:46Z",
+      "updatedRelease": "v2.0.1"
+    },
+    "vpx-smbmushroom": {
+      "fingerprint": "49a55929eb15bc70323b98e277a55b52b2dc8a6e201139a2276c584836acbf0f",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-sopranos": {
+      "fingerprint": "02dd729ff528df606d4fad3ae718b96292ad19c0f225f532e974d810c6f57f6f",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-southpark": {
+      "fingerprint": "e66285d37a14b035863c7ee4a87a700e0e809268ca582bfb148ac181a486750f",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-spacecadetge": {
+      "fingerprint": "0f07fef69e62641b269aa514147612d310f6d4d8f8b10bedc489592eac589b51",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-spaceinvaders": {
+      "fingerprint": "c86a06e1133b8ef12b5cff609ca6bb6a842b4d567898c43359595535e1289494",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-spacejam": {
+      "fingerprint": "9501e1f28a7545e947a7d497fba8d00f1e8698a8a2406551d9386fc3b5a0f6d2",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-spidermanve": {
+      "fingerprint": "ae20332f699e46542c55b499fd1a0ec040470f48edecac290a4d756cbfa64917",
+      "firstAvailableAt": "2025-03-17T12:04:53Z",
+      "firstAvailableRelease": "mytest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-spongebob": {
+      "fingerprint": "8c838a784d290123ed1d26d05f95ebcc3307c8956bd0d6aa18618ba6cc6e2a7b",
+      "firstAvailableAt": "2025-03-17T12:04:53Z",
+      "firstAvailableRelease": "mytest",
+      "updatedAt": "2025-03-17T12:04:53Z",
+      "updatedRelease": "mytest"
+    },
+    "vpx-starship": {
+      "fingerprint": "7ec5e870d430e1b4b11b8dd1207b2a7a52102a102aea717e1d5331a2d84b0784",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-starshipvpw": {
+      "fingerprint": "9707f4b7edb6b07713a7a6068e7ba23e18911b03f6037b810af3be5aa7b72732",
+      "firstAvailableAt": "2026-04-29T01:28:27Z",
+      "firstAvailableRelease": "v2.0.4",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-startrek25th": {
+      "fingerprint": "6fa986325ba8dab7e3f68c133c003eedf7c57213ed22d7ab8c918c67f6beee8c",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-startrektng": {
+      "fingerprint": "422993bfa216b9bc094fdddb19038e7668b1b3a70c170adc482e362ab5bb30e6",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-starwars": {
+      "fingerprint": "a959e73b77933a33881dfc8e667e75db03f65d776e92e3abb7c638b9ba9cbc37",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-starwarsburger": {
+      "fingerprint": "c46d80987e14deef815461e0cd95a0a6b7192801207a36cd7f1e85dcdb5dd99d",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-starwarstrilogy": {
+      "fingerprint": "bfc4e80cbd90e53d175744566eb70ae28a133078766ecffc9b929608d50dd427",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-supermario": {
+      "fingerprint": "b6c0c3020e2aef9cd64d11def1f0828eadc11146d00e1a9ccd90d9813cb55fef",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-surfnsafari": {
+      "fingerprint": "065e1c6b0762878889296d8b0d212007a0b060f845e927c31c0b63c6dfa513f7",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-swbadbatch": {
+      "fingerprint": "7e57db7ce5677169eb6be372fb7b0be696850769330498e2a3e609281a90c6db",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-t2": {
+      "fingerprint": "67dd05299b3970c7c7dda41db4404988e3fb94004279794fd77d612b09b8d794",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-t2jp": {
+      "fingerprint": "2a371881709cb45af2940746aefcb8d462dbbc86dcf7257b5875cb0efadac3aa",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2025-10-27T20:25:46Z",
+      "updatedRelease": "v2.0.1"
+    },
+    "vpx-taf": {
+      "fingerprint": "3d89b764efdc4371e07d65aa9e0281a2acbec2724a704ba8a455e5c01d12f281",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-taxi": {
+      "fingerprint": "d1b559c4e457bffda0e1350961435828d49dddd70a2a6a06973b572320c5c22f",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-07-21T18:45:17Z",
+      "updatedRelease": "v2.0.14"
+    },
+    "vpx-teedoff": {
+      "fingerprint": "92382d0851765307c92e7e9bf6a8fb495244f0674cdea8f29b7f5a82a0b8e902",
+      "firstAvailableAt": "2026-04-29T01:28:27Z",
+      "firstAvailableRelease": "v2.0.4",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-tftc": {
+      "fingerprint": "3bacdd2c05820b8f56b75d091554889259478d4dc4e03d40837cc3814e64a81c",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-thelostworld": {
+      "fingerprint": "4b8dbd92115a6fc1da6b9e50972c55e329eb966e06e35f7172328c401c8768fb",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-thelostworldjp": {
+      "fingerprint": "056825663088c776b2308ab83a12d42fad69533890808d630489ae1b3c1d2338",
+      "firstAvailableAt": "2025-03-23T16:57:26Z",
+      "firstAvailableRelease": "testlib",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-theshadow": {
+      "fingerprint": "8e2cbf8c9af9b0f35161be53ef7f4aebd1811c73c69ba69286296107fd015dff",
+      "firstAvailableAt": "2026-04-29T01:28:27Z",
+      "firstAvailableRelease": "v2.0.4",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-theshining": {
+      "fingerprint": "eed36bd5e125314aa1b242a75d4cb3e7b77001457bb1a740c271a1d0fbb02b62",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-tna": {
+      "fingerprint": "c1db60100f7535f39d5ac9f48589f9fc23126f36aaf5da1757dd736beeebd1f8",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-tnes": {
+      "fingerprint": "f63941103e42874ff5cd28b19f918927aebb9fe80e6d84610f6bd4b8378e2e65",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-tommy": {
+      "fingerprint": "7700d1040cb2d1782153fce3cd83e21940fdc7ff8b8021a2e80c8ca3fa8e2e59",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-torpedoalley": {
+      "fingerprint": "7aa2bac7054d16be835952bcfe54913bbbd61137b970e2b04e5e4c542de8d4f1",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-totan": {
+      "fingerprint": "a18792f0d1660f238ddf907185ef5af69693fa74e7bfc1ae0b36d0cf5d678ca0",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-trailerparkboys": {
+      "fingerprint": "488074418a52a9db5d0fed190205d45db7cef8cfecfaa86cdb4a7979fadc7aa5",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-transformersmod": {
+      "fingerprint": "a6b400808fea12ac0d84dc7275a519f583b6d015ecb2bc4d66cfa29e99b19e3c",
+      "firstAvailableAt": "2025-04-29T07:19:06Z",
+      "firstAvailableRelease": "doitagain",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-trident": {
+      "fingerprint": "2ab56b8983e4e7fcf1f1663b96ca9d1edb40fa8a6d2347f1c004049679f90397",
+      "firstAvailableAt": "2026-04-29T01:28:27Z",
+      "firstAvailableRelease": "v2.0.4",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-tronlegacy": {
+      "fingerprint": "20b15c02870a22789a11b33aa35164b0a306d91f930eae2ae1983644f0495642",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-twdle": {
+      "fingerprint": "1be3618edfb62d4d13d97f7f320c8639fd2f8993b05fe9d2ef2c262e09ea3f0e",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-twister": {
+      "fingerprint": "e3f2d468c9f9b601ce1da150339aa9df33676ad12acc3fdaba37877c1699a24e",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-underwater": {
+      "fingerprint": "c11dd1e20ea57e33b7a3725e9b33cd24113d79b520b65011a2474130848e3c0c",
+      "firstAvailableAt": "2026-04-29T01:28:27Z",
+      "firstAvailableRelease": "v2.0.4",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-victory": {
+      "fingerprint": "ebb58f6d504ac65de2efe57023a96ecdcb65c77921939a62cbe8d4164b1e88f5",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-vipernight": {
+      "fingerprint": "f5f3c67e8c48cafb7a98f2d9761952c128eb5978061536e5233007e34c501e64",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-volkan": {
+      "fingerprint": "ebb128ad3836c410775fe3e88f8a8bb7cfe6c3017bd22044fd7df8a511cbdbac",
+      "firstAvailableAt": "2026-01-24T02:35:16Z",
+      "firstAvailableRelease": "v2.0.2",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-vortex": {
+      "fingerprint": "f228ba562e256286a47b60ddbed19b3f52f00dfb9e97ee8982c9b5f8e8504be0",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-walkure": {
+      "fingerprint": "644007ff8335d96a084ef0eb25983ffaf10d52c8368182f815c3b90872c596e2",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-walkyria": {
+      "fingerprint": "ee0a817e0ea66eb7473796785230dff57a65aec766b1249cdb509a71f88367ca",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-whitewater": {
+      "fingerprint": "47c931b56a7c02cc5180afcd011497373c6bc26f9f5a6eb70d1fcf7fa7a9c150",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2025-03-24T15:30:39Z",
+      "updatedRelease": "test-titles"
+    },
+    "vpx-whoanellie": {
+      "fingerprint": "db72cb8ec30442a294b647464a6b1d3b2bb44bd219fb455b6d55beed0c474cd8",
+      "firstAvailableAt": "2025-03-23T16:57:26Z",
+      "firstAvailableRelease": "testlib",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-whodunnit": {
+      "fingerprint": "07d47429bc4a35f072e41ea16faf06dedfe23a6a3db0a090cc48ed4e2f970fe4",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-willow": {
+      "fingerprint": "4a34b8c4541295ececa2d01ad54de8d207233711cd22ceee49276d024b27db35",
+      "firstAvailableAt": "2025-10-27T20:25:46Z",
+      "firstAvailableRelease": "v2.0.1",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-wipeout": {
+      "fingerprint": "1c50854704f22b78a061816972b28333db5bc5a240a60187794ee7ee137e8bd3",
+      "firstAvailableAt": "2025-06-18T03:49:31Z",
+      "firstAvailableRelease": "1.1.1",
+      "updatedAt": "2026-07-20T19:11:17Z",
+      "updatedRelease": "v2.0.13"
+    },
+    "vpx-worldcupsoccer": {
+      "fingerprint": "9b26a6140b6e64f57d1ca467ec04966041221f675dcc40fb98eaaea1d54f5368",
+      "firstAvailableAt": "2026-09-05T20:12:08Z",
+      "firstAvailableRelease": "v2.0.15",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-wrath": {
+      "fingerprint": "78b1912165a919362aac6d02e7314886d7c1df0c8e3b3383dc03d56df5961563",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-wutheringwaves": {
+      "fingerprint": "3c0fb8867446ba2471c311c6e74209a0c0a4ac0d4000e6008e42cdadbf91bf93",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-wwind": {
+      "fingerprint": "5a03a27e306f3805211dc0f850e963e7bb8bba8878ac0e74b2c471c44e516576",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-xfiles": {
+      "fingerprint": "7b2eb2107f4f4915d47b7da56f97a9a7375e454124205e695c1af0b2609ac0d5",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-xfileshanibal": {
+      "fingerprint": "79e8e7ffc56aa1e129340ed56adc0d5cfdd8963eef1b720f89365568f00d1788",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-09-05T20:12:08Z",
+      "updatedRelease": "v2.0.15"
+    },
+    "vpx-xmen": {
+      "fingerprint": "cf4f7f8c5f40dd8d1ddfa829f8d106479a4a9c64799bd0b6f435f03a963c6e70",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-20T19:11:17Z",
+      "updatedRelease": "v2.0.13"
+    },
+    "vpx-youngfrankenstein": {
+      "fingerprint": "142e2a0730e0dd4847d311aec04859d4f1a6170233d4f7d4a6e29b60935ba0e3",
+      "firstAvailableAt": "2025-04-18T01:42:08Z",
+      "firstAvailableRelease": "puptest",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    },
+    "vpx-zelda": {
+      "fingerprint": "1c13d6c26e22aca14b3f19bae1df77657efd221e99662c881cebaa32bae8eab2",
+      "firstAvailableAt": "2026-07-18T19:04:33Z",
+      "firstAvailableRelease": "v2.0.11",
+      "updatedAt": "2026-07-21T18:45:17Z",
+      "updatedRelease": "v2.0.14"
+    },
+    "vpx-zissou": {
+      "fingerprint": "a9f45621e20509646f579d7ac1c7ce0eb0d18b89b4f6480b53407af535da0654",
+      "firstAvailableAt": "2025-03-24T15:30:39Z",
+      "firstAvailableRelease": "test-titles",
+      "updatedAt": "2026-07-18T19:04:33Z",
+      "updatedRelease": "v2.0.11"
+    }
+  }
+}
