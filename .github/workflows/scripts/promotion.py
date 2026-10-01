@@ -85,6 +85,10 @@ class Api:
         except urllib.error.HTTPError as e:
             if e.code in (301, 302, 303, 307, 308):
                 return e
+            # GitHub's message says why (rate limit, permissions, validation);
+            # the status line alone does not.
+            detail = e.read().decode("utf-8", "replace")[:500]
+            print(f"{method} {url} -> {e.code}: {detail}", file=sys.stderr)
             raise
 
     def call(self, method, path, body=None):
