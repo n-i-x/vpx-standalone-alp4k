@@ -35,8 +35,9 @@ permissions:
 #
 # The mirror is what carries updated launcher.png box art (re-encoded to WebP),
 # so it is published for candidates too — not just at promotion time.
-# Chained runs publish to manifest-testing; promote-release.yml calls this with
-# target_branch=manifest as the first half of promoting a candidate to stable.
+# Chained runs publish to manifest-testing. promote-release.yml does not call
+# this: it builds `manifest` from the blobs already on manifest-testing, so
+# stable gets the exact art testers were served.
 on:
   workflow_run:
     workflows: ["Build release assets"]

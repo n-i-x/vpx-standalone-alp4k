@@ -98,7 +98,8 @@ def description(found, kept, hello):
 def embed(release, kind):
     style = KINDS[kind]
     tag = release["tag_name"].strip()
-    title = f"Wizard Table Release - {tag if tag.startswith('v') else 'v' + tag}"[:TITLE_MAX]
+    # Testing candidates are tagged testing-<date>-<run>, not a version.
+    title = f"Wizard Table Release - {'v' + tag if tag[:1].isdigit() else tag}"[:TITLE_MAX]
     footer = style["footer"]
     found = sections(release.get("body") or "")
     hello = greeting(release)

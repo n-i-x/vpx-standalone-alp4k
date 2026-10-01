@@ -5,6 +5,12 @@ name: Create Testing Release
 #
 #   draft -> assets -> catalog mirror -> notes -> publish -> retire the old one
 #
+# The candidate is the STAGING AREA for stable. "Promote Release" assembles a
+# new stable release out of it, either everything or only selected tables, so
+# a candidate never holds a stable version number: its tag is
+# testing-<date>-<run>, unique per cut. Table Manager's internal tracks show it
+# to testers until it is retired.
+#
 # Everything is built while the release is a DRAFT, which is invisible to the
 # API and to devices. Nothing an internal cabinet can see changes until the
 # publish step, so there is no window where a candidate is half-built.
@@ -13,19 +19,19 @@ name: Create Testing Release
 # before building. That is what keeps Table Manager's internal tracks working:
 # the old candidate stays serviceable through the whole build, and the gap
 # between retiring it and publishing the new one is a few seconds instead of a
-# whole rebuild. Candidates reuse the final tag, so asset URLs and catalog
-# history references are correct from the start and promotion stays a flag flip.
+# whole rebuild.
 
 on:
   workflow_dispatch:
-    inputs:
-      release_tag:
-        description: 'Tag for the candidate (blank = bump the patch of the latest stable)'
-        required: false
-        type: string
 
 permissions:
   contents: write
+
+# Shared with Promote Release, so a promotion never reads a candidate that is
+# being replaced underneath it.
+concurrency:
+  group: release-pipeline
+  cancel-in-progress: false
 
 jobs:
   prepare:
@@ -40,40 +46,21 @@ jobs:
     steps:
       - name: Resolve the tag and create a draft release
         id: draft
-        env:
-          REQUESTED: ${{ inputs.release_tag }}
         run: |
           set -euo pipefail
-          tag="$REQUESTED"
-          if [ -z "$tag" ]; then
-            latest=$(gh api "repos/${{ github.repository }}/releases/latest" --jq .tag_name)
-            # Tags carry a leading v and occasionally a letter suffix (v2.0.6a),
-            # so read the three leading numbers and bump the last.
-            nums=$(printf '%s' "$latest" | sed -E 's/^v//; s/^([0-9]+)\.([0-9]+)\.([0-9]+).*$/\1 \2 \3/')
-            read -r maj min pat <<<"$nums"
-            if [ -z "${pat:-}" ]; then
-              echo "::error::Could not parse a version from latest stable '$latest'; pass release_tag explicitly."
-              exit 1
-            fi
-            tag="v${maj}.${min}.$((pat + 1))"
-            echo "Latest stable is $latest; candidate will be $tag"
-          fi
-
+          # Never a stable version: promotion gives stable its own tag, so the
+          # candidate's only has to be unique.
+          tag="testing-$(date -u +%Y%m%d)-${{ github.run_number }}"
           if TAG="$tag" gh api "repos/${{ github.repository }}/releases" --paginate \
-               --jq '.[] | select(.tag_name==env.TAG and (.draft|not)) | .tag_name' | grep -q .; then
-            echo "::notice::A published release already uses $tag; it will be retired just before this candidate is published."
-            echo "::notice::Until then GitHub shows this draft against the OLD tag's commit, because the tag still exists. Do not publish the draft by hand — the workflow deletes the old tag first so the new tag is created at ${{ github.sha }}."
-          fi
-          if TAG="$tag" gh api "repos/${{ github.repository }}/releases" --paginate \
-               --jq '.[] | select(.tag_name==env.TAG and .draft) | .id' | grep -q .; then
-            echo "::error::A draft for $tag already exists. Delete it before starting a new run."
+               --jq '.[] | select(.tag_name==env.TAG) | .id' | grep -q .; then
+            echo "::error::A release for $tag already exists. Delete it before re-running."
             exit 1
           fi
 
           id=$(gh api -X POST "repos/${{ github.repository }}/releases" \
                  -f tag_name="$tag" \
                  -f target_commitish="${{ github.sha }}" \
-                 -f name="Update ${tag#v}" \
+                 -f name="Testing $(date -u +%Y-%m-%d) (run ${{ github.run_number }})" \
                  -F draft=true -F prerelease=true \
                  -f body="Building..." --jq .id)
           echo "Created draft $tag (id $id) from ${{ github.ref_name }}"
@@ -114,8 +101,9 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       TAG: ${{ needs.prepare.outputs.tag }}
     steps:
-      # Deleting first frees the tag when the new candidate reuses it, and
-      # keeps the "exactly one open prerelease" invariant true at all times.
+      # Keeps the "exactly one open prerelease" invariant true at all times.
+      # Anything still staged in the old candidate and not promoted is
+      # superseded by this one, which was built from a newer main.
       - name: Retire previous candidates
         run: |
           gh api --paginate "repos/${{ github.repository }}/releases" \
