@@ -402,11 +402,17 @@ def check(api, tables_text, branch="main", expected_staging="", release_tag=""):
     staged = staged_changes(staging_m, stable_m)
     result["staged"] = staged
 
+    # The stable tag marks the main commit the promotion ran against, in both
+    # modes. Not staging's commit: the workflow token may not create a tag on a
+    # commit whose workflow files differ from the default branch, which is the
+    # case whenever workflows changed after the cut. The manifest, not the tag,
+    # says what ships; finalize-body records the staging commit.
     if requested == ALL:
         if not staged:
             errors.append(f"nothing is staged: {staging['tag_name']} has no table changes over stable.")
         promote = dict(staged)
-        result["target_commitish"] = staging["target_commitish"]
+        result["main_sha"] = api.get(f"commits/{urllib.parse.quote(branch)}")["sha"]
+        result["target_commitish"] = result["main_sha"]
         result["tables"] = [{"key": k, "change": c, "ok": True, "reason": "",
                              "staged": (staging_m.get(k) or {}).get("configVersion"),
                              "stable": (stable_m.get(k) or {}).get("configVersion"),
@@ -554,7 +560,8 @@ def finalize_body(api, release_id, plan):
     staging_tag = plan["staging"]["tag_name"]
     count = len(plan["promote"])
     scope = "all staged changes" if plan["mode"] == ALL else f"{count} table(s)"
-    extra += ["", f"Promoted from testing release `{staging_tag}`: {scope}.",
+    extra += ["", f"Promoted from testing release `{staging_tag}` "
+              f"(built at {plan['staging']['target_commitish'][:7]}): {scope}.",
               MARKER.format(tag=staging_tag)]
     body = "\n".join(([body.rstrip(), ""] if body.strip() else []) + extra).strip() + "\n"
     # tag_name has to be repeated: a PATCH to a draft that leaves it out drops

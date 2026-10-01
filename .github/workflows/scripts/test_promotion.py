@@ -176,6 +176,8 @@ class FakeApi:
     def get(self, path):
         if path == 'releases/latest':
             return self.stable
+        if path.startswith('commits/'):
+            return {'sha': 'f00d'}
         raise AssertionError(path)
 
     def exists(self, path):
@@ -217,7 +219,7 @@ class CheckTests(unittest.TestCase):
     def test_all_skips_the_main_check(self):
         r = promotion.check(self.api, 'all')
         self.assertTrue(r['promotable'], r['errors'])
-        self.assertEqual(r['target_commitish'], 'cafe')
+        self.assertEqual(r['target_commitish'], 'f00d')
         self.assertEqual(r['remaining'], {})
 
     def test_expected_staging_mismatch(self):

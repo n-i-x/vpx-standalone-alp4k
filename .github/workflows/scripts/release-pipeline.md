@@ -24,10 +24,16 @@ A *staged change* is a table whose staging manifest entry differs from stable:
 
 | `tables` | What is promoted | Main check | Non-table data* | Release targets |
 |---|---|---|---|---|
-| `all` | every staged change, exactly as staging has it | none | from staging | staging's commit |
+| `all` | every staged change, exactly as staging has it | none | from staging | the current `main` commit |
 | keys | only those tables | required | stays as stable has it | the checked `main` commit |
 
 \* `achievements.json`, `team_favorites.json`, `editors_picks.json`.
+
+The stable tag always marks the `main` commit the promotion ran against, and
+the notes record the commit staging was built at. GitHub refuses to let the
+workflow token create a tag on a commit whose workflow files differ from the
+default branch, so tagging staging's own commit would break whenever a workflow
+changed after the cut. What ships is decided by the manifest, not the tag.
 
 For named tables every key must pass, or nothing is promoted:
 
