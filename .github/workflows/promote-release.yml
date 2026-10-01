@@ -174,8 +174,10 @@ jobs:
         run: |
           # make_latest matters: Table Manager's stable track and every fork
           # read /releases/latest.
+          # tag_name repeated on purpose: a draft PATCHed without it can lose
+          # its tag and publish as untagged-<hash>.
           gh api -X PATCH "repos/${{ github.repository }}/releases/${{ needs.assemble.outputs.id }}" \
-            -F draft=false -F prerelease=false -f make_latest=true \
+            -f tag_name="$TAG" -F draft=false -F prerelease=false -f make_latest=true \
             --jq '"published: \(.tag_name)  \(.html_url)"'
 
       - name: The tag landed on the commit that was checked
@@ -240,18 +242,30 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       TAG: ${{ needs.check.outputs.tag }}
     steps:
+      # Only an unpublished promotion is undone. Once the release is public,
+      # devices may already be reading it, so a failure after that point is
+      # left for a human: rolling the catalog back would point it at an older
+      # release than the one /releases/latest serves.
       - name: Delete the unpublished draft
+        id: draft
         run: |
           # By tag as well as id: assemble may have failed before reporting it.
-          gh api --paginate "repos/${{ github.repository }}/releases" \
-            --jq '.[] | select(.draft and .tag_name == env.TAG) | .id' \
-          | while read -r id; do
-              echo "Deleting draft $TAG (id $id)"
-              gh api -X DELETE "repos/${{ github.repository }}/releases/$id"
-            done
+          ids=$(gh api --paginate "repos/${{ github.repository }}/releases" \
+            --jq '.[] | select(.draft and (.tag_name == env.TAG or (.id|tostring) == env.ID)) | .id')
+          for id in $ids; do
+            echo "Deleting draft $TAG (id $id)"
+            gh api -X DELETE "repos/${{ github.repository }}/releases/$id"
+          done
+          published=$(gh api "repos/${{ github.repository }}/releases/${ID:-0}" --jq '.draft | not' 2>/dev/null || echo false)
+          echo "published=$published" >> "$GITHUB_OUTPUT"
+          if [ "$published" = "true" ]; then
+            echo "::error::Release ${{ needs.assemble.outputs.id }} was published before the run failed. Check it, /releases/latest and the manifest branch by hand."
+          fi
+        env:
+          ID: ${{ needs.assemble.outputs.id }}
 
       - name: Put the stable catalog back
-        if: needs.assemble.outputs.mirror_before != '' && needs.publish.result != 'success'
+        if: needs.assemble.outputs.mirror_before != '' && steps.draft.outputs.published != 'true'
         run: |
           before="${{ needs.assemble.outputs.mirror_before }}"
           echo "Restoring manifest to $before"

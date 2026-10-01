@@ -553,7 +553,11 @@ def finalize_body(api, release_id, plan):
     extra += ["", f"Promoted from testing release `{staging_tag}`: {scope}.",
               MARKER.format(tag=staging_tag)]
     body = "\n".join(([body.rstrip(), ""] if body.strip() else []) + extra).strip() + "\n"
-    api.call("PATCH", f"releases/{release_id}", {"body": body})
+    # tag_name has to be repeated: a PATCH to a draft that leaves it out drops
+    # the draft's tag, and it then publishes as untagged-<hash>.
+    api.call("PATCH", f"releases/{release_id}", {
+        "body": body, "tag_name": release["tag_name"],
+        "target_commitish": release["target_commitish"]})
     print(body)
 
 
